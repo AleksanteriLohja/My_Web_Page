@@ -1,1 +1,82 @@
 <link rel="stylesheet" href="index.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My_Web_Page</title>
+    <style>
+      /* Define the styles for the body element */
+      body {
+        background-image: url("https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-color: rgb(173, 182, 230);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+  
+      /* Define the styles for the h1 element */
+      h1 {
+        text-align: center;
+        width: 100%;
+        margin-top: 190px;
+      }
+  
+      /* Define the styles for the p element */
+      p {
+        margin: 20px;
+      }
+  
+      /* Define the styles for the .images class */
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: 20px;
+      }
+  
+      /* Define the styles for the images within the .images class */
+      .images img {
+        width: 20%;
+        height: auto;
+        margin: 20px;
+        transition: all 0.3s ease-in-out;
+      }
+  
+      /* Define the styles for the images within the .images class on hover */
+      .images img:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+  
+      /* Define the styles for the images within the .images class when active */
+      .images img:active {
+        transform: scale(0.95);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div>
+      <h1>Mukavaa kun löysit tänne!</h1>
+      <p>Tervetuloa nettisivulleni.</p>
+      <h2>Tietoja minusta</h2>
+      <p>Olen ohjelmistokehittäjä opiskelija.</p>
+      <h2>Harrastuksiani</h2>
+      <ul>
+        <li>Soitan kitaraa</li>
+        <li>Pelaan videopelejä</li>
+        <li>Ulkoilen koirani kanssa</li>
+      </ul>
+      <div class="images">
+        <!-- Link for the dog image -->
+        <a href="https://fi.wikipedia.org/wiki/Beagle">
+          <img src="https://images.pexels.com/photos/1000602/pexels-photo-1000602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Koira">
+        </a>
+        <a href="https://fi.wikipedia.org/wiki/PRS_Guitars">
+        <img src="https://images.pexels.com/photos/12189102/pexels-photo-12189102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kitara">
+        <a href="https://fi.wikipedia.org/wiki/PlayStation_5">
+        <img src="https://images.pexels.com/photos/9408469/pexels-photo-9408469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ohjain">
