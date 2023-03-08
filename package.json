@@ -1,0 +1,23 @@
+{
+  "name": "my_web_page",
+  "version": "1.0.0",
+  "description": "buildin my first web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanteriLohja/My_Web_Page.git"
+  },
+  "keywords": [
+    "web",
+    "development"
+  ],
+  "author": "AleksanteriL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleksanteriLohja/My_Web_Page/issues"
+  },
+  "homepage": "https://github.com/AleksanteriLohja/My_Web_Page#readme"
+}
