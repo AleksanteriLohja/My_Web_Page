@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AleksanteriLohja/My_Web_Page/issues"
   },
-  "homepage": "https://github.com/AleksanteriLohja/My_Web_Page#readme"
+  "homepage": "https://github.com/AleksanteriLohja/My_Web_Page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
 }
